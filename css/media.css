@@ -1,9 +1,11 @@
 @media (max-width: 1500px) {
     .holiday{
+        padding: 0;
+
         justify-content: space-around;
     }
     .holiday_finder{
-        width: 550px;
+        
     }
 
     .finder_title{
@@ -19,12 +21,13 @@
     }
 
     .description{
+        padding: 0;
         margin-top: 100px;
         justify-content: space-around;
     }
 
     .description_about{
-        width: 550px;
+        
     }
 
     .about_title{
