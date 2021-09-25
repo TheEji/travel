@@ -1,0 +1,44 @@
+@media (max-width: 1500px) {
+    .holiday{
+        justify-content: space-around;
+    }
+    .holiday_finder{
+        width: 550px;
+    }
+
+    .finder_title{
+        text-align: center;
+    }
+
+    .finder_subtitle{
+        text-align: center;
+    }  
+
+    .holiday_button{
+        margin: 0 auto;
+    }
+
+    .description{
+        margin-top: 100px;
+        justify-content: space-around;
+    }
+
+    .description_about{
+        width: 550px;
+    }
+
+    .about_title{
+        text-align: center;
+    }
+
+    .about_text{
+        text-align: center;
+    }
+
+    .about_button{
+        margin: 0 auto;
+    }
+
+}
+
+

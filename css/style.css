@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Inter-Medium";
+    src: url('../fonts/Inter-Medium.woff2');
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('../fonts/Inter-Regular.woff2');
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url('../fonts/Inter-SemiBold.woff2');
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url('../fonts/Inter-Bold.woff2');
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url('../fonts/PlayfairDisplay-Bold.woff2');
+}
+
+@font-face {
+    font-family: "Mulish-Light";
+    src: url('../fonts/Mulish-Light.woff2');
+}
+
+@font-face {
+    font-family: "Mulish-Regular";
+    src: url('../fonts/Mulish-Regular.woff2');
+}
+
+@font-face {
+    font-family: "Mulish-Bold";
+    src: url('../fonts/Mulish-Bold.woff2');
+}
+
+/*Замедление анимации всем элементам сразу*/
+
+*{
+    transition: all 0.2s;
+}
+
+html{
+    background-color:aquamarine;
+}
+
+.wrap{
+    max-width: 1600px;
+    padding-top: 45px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+}
+/*Header*****************************************************************/
+.header {
+    padding-left: 11.8%;
+    padding-right: 11.8%;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+.logo{
+    width: 41px;
+    height: 41px;
+    margin-right: 35px;
+}
+.menu{
+    width: 52.8%;
+    margin-right: 35px;
+    display: flex;
+    justify-content:space-between;
+       
+}
+
+.menu_item{
+    font-family: Inter-Regular;
+    color: #B8BECD;
+}
+
+.menu_item:hover{    
+    color: #202336;
+}
+
+.menu_wrap{
+    width: 663px;
+    display: flex;
+    align-items: center;
+}
+
+.header_button{
+    width: 282px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+/*Buttons************************************/
+.button{
+    display: block;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    font-family: Inter-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.button_white{
+    background-color: #fff;
+    border: 1px solid #FB8F1D;
+    color:#FB8F1D;
+}
+.button_white:hover{
+    background-color: #FB8F1D;   
+    color:#fff;
+}
+
+.button_orange{
+    background-color: #FB8F1D;
+    border: 1px solid #FB8F1D;   
+    color:#fff;
+}
+.button_orange:hover{    
+    background-color: #fff;    
+    color:#FB8F1D;
+}
+
+/*Holiday finder*****************************************************************/
+.holiday{
+    position: relative;
+    margin-top: 80px;
+    padding-left: 11.8%;
+    padding-right: 6.6%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.holiday_finder{
+    width: 471px;
+}
+
+.finder_title{
+    position: relative;
+    top:50px;
+    font-family: PlayfairDisplay-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+
+.finder_subtitle{
+    margin-top: 107px;
+    font-family: Inter-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;    
+    color: #202336;
+}
+
+.finder_form{    
+    margin-bottom: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.finder_form__item{
+    width: 210px;
+    height: 52px;    
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    appearance: none;
+    font-family: Inter-Regular;    
+    font-size: 15px;
+    color: #4A4C53;
+    background: url(../img/appearance.svg) no-repeat right;
+    background-position-x: calc(100% - 35px)
+}
+
+.finder_form__date {
+    background: none;
+}
+
+.finder_form__item:first-child{
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+.finder_form__item:last-child{    
+    margin-left: 35px;
+}
+
+
+
+/*About*****************************************************************/
+.description{
+    margin-top: 286px;
+    padding-left: 8.8%;
+    padding-right: 13.56%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-widh:1400px){
+    .description{
+        justify-content: space-around;
+    }
+}
+
+.description_about{
+    position: relative;
+    width: 481px;
+}
+
+.about_title{
+    position: relative;
+    top:96px;
+    font-family: PlayfairDisplay-Bold;    
+    font-size: 36px;
+    line-height: 50px;   
+    color: #000000;
+}
+.about_text{
+    margin-top: 116px;
+    margin-bottom: 33px;
+    font-family: Mulish-Light;    
+    font-size: 17px;
+    line-height: 30px;    
+    color: #7D7987;
+}
