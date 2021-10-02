@@ -48,6 +48,7 @@ html{
 
 .wrap{
     max-width: 1600px;
+    min-width: 900px;
     padding-top: 45px;
     margin: 0 auto;
     position: relative;
@@ -210,11 +211,7 @@ html{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-@media (max-widh:1400px){
-    .description{
-        justify-content: space-around;
-    }
-}
+
 
 .description_about{
     position: relative;
@@ -236,4 +233,298 @@ html{
     font-size: 17px;
     line-height: 30px;    
     color: #7D7987;
+}
+
+
+/*Featured*********************************************************/
+.featured{
+    position: relative;
+    width: 70%;
+    margin: 290px auto 0 auto;
+}
+
+.featured_tittle{
+    margin-bottom: 56px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 36px;
+    color: #000000;
+    text-align: left;
+}
+.gallerey_all{
+    position: absolute;
+    right: 0;
+    top:20px;
+    display: inline-block;
+    font-family: Inter-Regular;    
+    font-weight: 600;
+    font-size: 17px;    
+    color: #FB8F1D;
+}
+
+.gallerey_all a{   
+    color: #FB8F1D;
+}
+
+
+.featured_gallerey{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallerey_item{
+    position: relative;
+    width: 261px;      
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.gallerey_item__description{
+    position: absolute;
+    display: flex;    
+    flex-direction: column;
+    min-width: 120px;
+    padding-top: 11px;
+    left:0px;
+    bottom: 0px;
+    background-color: #fff;
+    border-radius: 0px 6px 0px 0px;
+}
+.item_description__titile{    
+    font-family: Inter-Regular;      
+    font-weight: 600;
+    font-size: 17px;   
+    color: #042521;
+}
+.item_description__text{
+    font-family: Inter-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #80918E;
+}
+
+/*Guides*********************************************************/
+.guides{
+    margin-top: 237px;
+    padding-right: 14.43%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.guides_inner{
+    width: 410px;
+    position: relative;
+    top: 152px;  
+}
+.guides_title{
+    font-family: PlayfairDisplay-Bold;    
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+.guides_text{
+    margin-top: 20px;
+    font-family: Mulish-Light;    
+    font-size: 17px;
+    line-height: 30px;   
+    color: #7D7987;
+}
+.guides_button{
+    margin-top: 39px;
+}
+
+/*testimonials*********************************************************/
+.testimonials{
+    margin-top: 248px;
+    padding-right: 21.37%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.testimonials_inner{
+    width: 450px;
+}
+.testimonials_inner__title{
+    ont-family: PlayfairDisplay-Bold;    
+    font-size: 36px;
+    color: #000000;
+}
+.testimonials_inner__stars{
+    margin-top: 145px;
+    display: flex;
+    justify-content: start;
+}
+.testimonials_inner__stars img {
+    margin-right: 15px;
+}
+.testimonials_inner__text{
+    margin-top: 30px;
+    font-family: Mulish-Regular;    
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.testimonials_inner__name{
+    margin-top: 40px;
+    font-family: Inter-Bold;    
+    font-size: 22px;       
+    color: #000000;
+}
+.testimonials_inner__work{
+    margin-top: 10px;
+    font-family: Inter-Bold;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.testimonials_gallerey{
+    position: relative;
+    top: 110px;
+}
+
+.testimonials_gallerey__buttons{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 132px;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 16px 0px 0px 0px;
+}
+.buttons_left{
+    margin-right: 22px;
+}
+
+/*trending*********************************************************/
+.trending{
+    position: relative;
+    width: 70%;
+    margin: 380px auto 0 auto;
+}
+
+.trending_tittle{
+    margin-bottom: 56px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 36px;
+    color: #000000;
+    text-align: left;
+}
+.trending_all{
+    position: absolute;
+    right: 0;
+    top:20px;
+    display: inline-block;
+    font-family: Inter-Regular;    
+    font-weight: 600;
+    font-size: 17px;    
+    color: #FB8F1D;
+}
+
+.trending_all a{   
+    color: #FB8F1D;
+}
+
+
+.trending_gallerey{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trending_item{
+    position: relative;
+    width: 266px;    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 16px 16px 0px 0px;
+}
+.trending_item__title{
+    margin-top: 13px;
+    font-family: Inter-Bold;    
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+.trending_item__text{
+    margin-top: 13px;
+    font-family: Inter-Regular;    
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+}
+.trending_item__readmore{
+    margin-top: 23px;
+}
+.trending_item__readmore a {
+    font-family: Inter-Bold;   
+    font-size: 15px;    
+    color: #FB8F1D;
+}
+
+/*footer*********************************************************/
+.footer{
+    margin-top: 270px;
+    background: #F9F9FB;
+    padding-left: 11.87%;
+    padding-right: 13.75%;
+    font-family: Mulish-Light;    
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+}
+
+.footer_up{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.footer_up__main{
+    margin-top: 78px;
+    width: 360px;
+    margin-right: 40px;
+}
+.footer_main__text{
+    margin-top: 26px;
+}
+.footer_main__rights{
+    margin-top: 55px;
+}
+.footer_item{
+    margin-top: 90px;
+    margin-right: 10px;
+    width: 170px;
+}
+.footer_item__titile{
+    font-family: Mulish-Bold;    
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+}
+.footer_item__text{
+    line-height: 38px;
+}
+
+.footer_down{
+    margin-top: 80px;
+    height: 85px;
+    border-top:1px solid #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_down__social a{
+    margin-right: 33px;
+    text-align: center;
+}
+
+.footer_down__social a:last-child{
+    margin-right: 0;
 }
